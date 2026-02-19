@@ -18,7 +18,7 @@ Les 3 serveurs seront directement configurés en bridge sous VMWARE afin de dép
 - Utilisation de la commande -python -m http.server 8000- pour lancer un serveur web et télécharger le script de la machine hôte à la VM.
 - Utilisation de la commande wget http://ip_hote:8000/script pour télécharger le  script sur la vm.
 
-Les détails de chaque configuration serveur sera contenu dans un dossier /docs/nom du serveur gestion des droits, sécurité etc...
+Les détails de chaque configuration serveur seront contenus dans un dossier /docs/nom du serveur gestion des droits, sécurité etc...
 
 ## Nommage des serveurs
 RFC1178
