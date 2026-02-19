@@ -14,3 +14,10 @@ L'objectif est de passer d'une machine vierge à un serveur fonctionnel et sécu
 Les 3 serveurs seront intégralement configurés à l'aide de scripts. Chacun de ces scripts se trouve dans le dossier /scripts.
 
 Les 3 serveurs seront directement configurés en bridge sous VMWARE afin de déployer ces scripts sans configuration SSH au début à l'aide d'un serveur web Python depuis la machine hôte de VMWARE.
+
+## Nommage des serveurs
+RFC1178
+
+thor ==> DEBIAN ANSIBLE
+freya ==> DEBIAN APACHE et PHP
+zeus ==> DEBIAN MARIADB
