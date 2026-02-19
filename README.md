@@ -15,6 +15,9 @@ Les 3 serveurs seront intégralement configurés à l'aide de scripts. Chacun de
 
 Les 3 serveurs seront directement configurés en bridge sous VMWARE afin de déployer ces scripts sans configuration SSH au début à l'aide d'un serveur web Python depuis la machine hôte de VMWARE.
 
+- Utilisation de la commande -python -m http.server 8000- pour lancer un serveur web et télécharger le script de la machine hôte à la VM.
+- Utilisation de la commande wget http://ip_hote:8000/script pour télécharger le  script sur la vm.
+
 ## Nommage des serveurs
 RFC1178
 
