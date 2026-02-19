@@ -20,7 +20,7 @@ fi
 # Utilisation de la commande === sed === pour rechercher et remplacer par un dièse en début de ligne dans le fichier cible === etc/apt/sources.list le dépôt CD-ROM.
 echo "Commenter le fichier sources.list afin d'effectuer les mises à jour et installation des paquets." 
 
-sed -i 's/^deb cdrom/#deb cdrom' /etc/apt/sources.list
+sed -i 's/^deb cdrom/#deb cdrom/' /etc/apt/sources.list
 
 # Installation des mises à jour ainsi que des dépôts nécessaires.
 
