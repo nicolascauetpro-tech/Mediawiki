@@ -11,7 +11,7 @@ L'objectif est de passer d'une machine vierge à un serveur fonctionnel et sécu
 3. Un serveur Debian 13 avec un serveur web Apache et PHP.
 4. Un serveur Debian 13 avec la BDD MariaDB.
 
-Les 3 serveurs seront intégralement configurés à l'aide de scripts. Chacun de ces scripts se trouve dans le dossier /scripts/nom du serveur.
+Les 3 serveurs seront intégralement configurés à l'aide de scripts. Chacun de ces scripts se trouve dans le dossier /scripts/nom du serveur/configuration.sh.
 
 Les 3 serveurs seront directement configurés en bridge sous VMWARE afin de déployer ces scripts sans configuration SSH au début à l'aide d'un serveur web Python depuis la machine hôte de VMWARE.
 
