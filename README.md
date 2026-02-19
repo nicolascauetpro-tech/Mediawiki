@@ -18,6 +18,6 @@ Les 3 serveurs seront directement configurés en bridge sous VMWARE afin de dép
 ## Nommage des serveurs
 RFC1178
 
-thor ==> DEBIAN ANSIBLE
-freya ==> DEBIAN APACHE et PHP
-zeus ==> DEBIAN MARIADB
+1. thor ==> DEBIAN ANSIBLE
+2. freya ==> DEBIAN APACHE et PHP
+3. zeus ==> DEBIAN MARIADB
